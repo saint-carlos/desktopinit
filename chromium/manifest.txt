@@ -1,0 +1,41 @@
+the profile is built on chromium 63.0.3239.84 / GTK
+
+changes from vanilla chromium:
+- don't use web service to resolve navigation errors
+- don't run closed apps in background until they close
+- don't run closed apps in background when browser closes
+- disable auto sign-in
+- ask where to download each time
+
+non-default chrome://flags options:
+- enable-push-api-background-mode = disabled
+- autoplay-policy = Document user activation is required
+- enable-manual-password-saving = enabled
+
+extensions installed:
+- addblock plus 1.13.4
+- disable HTML5 autoplay 0.6.2
+- flash video downloader 31.2.3
+- flashcontrol 9.4
+- new tab (by Ramkumar K.R.) 0.3.1, showing only bookmarks
+- onetab 1.18, always restore to new window
+- RSS feed reader 7.2.2, open posts in current tab, don't show unread count
+
+address-bar search engines and their keywords:
+g	Google
+ddg	DuckDuckGo
+gt	Google Translate
+gm	Google Maps
+w	Wikipedia
+mw	Merriam Webster
+ud	Urban Dictionary
+tfd	The Free Disctionary
+a	Abbreviations
+so	Stack Overflow
+man	Linux man pages
+u	SUSv4
+rfc	RFC
+y	YouTube
+imdb	IMDB
+ww	Hebrew Wikipedia
+b	Babylon 9
