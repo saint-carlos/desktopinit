@@ -1,0 +1,39 @@
+the 'main' profile is built on firefox 57.0
+
+changes from vanilla firefox:
+- toolbar: new window|new private window|downloads|history|bookmarks|sidebars|extensions|subscribe
+- blank page instead of home page; home page is about:blank
+- new tab page cleared up
+- always ask where to save files
+- no automatic updates
+- clear all "one-click search engines"
+- default search engine is DuckDuckGo
+
+non-default about:config options:
+- browser.enable_automatic_image_resizing = false
+
+extensions installed:
+- addblock plus 3.0.2 + some custom filters
+- bulk media downloader 0.2.1
+- flash and video download 3.0.5
+- flash block plus 0.1.6
+
+address-bar search engines and their keywords:
+ddg	DuckDuckGo
+g	Google
+gt	Google Translate
+gm	Google Maps
+w	Wikipedia
+mw	Merriam Webster
+ud	Urban Dictionary
+tfd	The Free Disctionary
+a	Abbreviations
+so	Stack Overflow
+man	Linux man pages
+u	SUSv4
+rfc	RFC
+y	YouTube
+imdb	IMDB
+mf	Morfix Dictionary
+ww	Hebrew Wikipedia
+b	Babylon 9
